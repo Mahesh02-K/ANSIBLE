@@ -1,7 +1,7 @@
-- name: VARS
+- name: VARIABLES
   hosts: local
   connection: local
-  variables:
+  vars:
     COURSE: DEVSECOPS with AWS
     TIME: 7.15 AM 
     DURATION: 120 hrs
