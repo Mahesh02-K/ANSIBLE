@@ -9,8 +9,8 @@
   tasks:
     - name: Display Course Info
       vars:
-      COURSE: AWS
-      TRAINER: DINESH
+        COURSE: AWS
+        TRAINER: DINESH
       ansible.builtin.debug:
       #vars refernce should be surrounded by ""
         msg: "Hello I'm learning {{ COURSE }}, Duration: {{ DURATION }} and trainer is {{ TRAINER }} hosting at {{ TIME }}"
