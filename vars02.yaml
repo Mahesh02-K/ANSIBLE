@@ -8,6 +8,7 @@
     TRAINER: SIVAKUMAR
   tasks:
     - name: Display Course Info
+      vars:
       COURSE: AWS
       TRAINER: DINESH
       ansible.builtin.debug:
