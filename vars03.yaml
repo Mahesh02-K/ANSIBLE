@@ -1,7 +1,7 @@
 - name: Course Info
   hosts: local
   connection: local
-  vars:
+  vars_files:
   - courseinfo.yaml
   tasks:
     - name: Display course Info
