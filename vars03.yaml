@@ -1,0 +1,9 @@
+- name: Course Info
+  hosts: local
+  connection: local
+  vars:
+  - courseinfo.yaml
+  tasks:
+    - name: Display course Info
+      ansible.builtin.debug:
+        msg: "Hello I'm learning {{ COURSE }}, which is {{ DURATION }} and trainer is {{ TRAINER }} hosting at {{ TIME }}"
